@@ -21,16 +21,15 @@
 
 - 落後期: $y_{t-k}$
 
-- 一階差分 
-  $$
-  \Delta y_t = y_t - y_{t-1}
-  $$
+- 一階差分: $\Delta y_t = y_t - y_{t-1}$
   
 - 重要近似式 
+
   $$
   \Delta \log(y_t) = \frac{\Delta y_t}{y_{t-1}}
   $$
-   證明如下
+
+  證明如下
 
   
 
@@ -58,24 +57,24 @@
 
   - $L^{-k} y_t=y_{t+k}$
 
-  - $\forall |\phi|<1$
-    $$
-    (1+\phi L+\phi^2 L^2+\cdots)y_t=(\frac{1}{1-\phi L})y_t
-    $$
-    
+  - $\forall |\phi|<1, $
+
+    $(1+\phi L+\phi^2 L^2+\cdots)y_t=(\frac{1}{1-\phi L})y_t$
+  
 
 - 有限期落後運算元多項式 (polynomial in the log operator)
-  $$
+
+$$
   \phi_p(L) = 1 - \phi_1 L - \phi_2 L^2 - \cdots - \phi_p L^p=\sum_{j=0}^{p}{\phi_j L^p}
-  $$
+$$
   
 - 無窮期落後運算元多項式 
 
-  - $\phi_\infin (L)$定義如下:
+- $\phi_{\infty} (L)$ 定義如下:
 
-  $$
-  \phi_{\infin}(L) = 1 - \phi_1 L - \phi_2 L^2 - \cdots=\sum_{j=0}^{\infin}{\phi_j L^j}
-  $$
+$$
+\phi_{\infty}(L) = 1 - \phi_1 L - \phi_2 L^2 - \cdots=\sum_{j=0}^{\infty}{\phi_j L^j}
+$$
 
   
 
